@@ -131,7 +131,7 @@ public class Carrito {
         } else {
             
             foodList.remove(searchResult);
-            System.out.printf("El producto %f fue removido exitosamente",searchResult);
+            System.out.printf("El producto %s fue removido exitosamente.\n", foodName);
         }
 
     }
